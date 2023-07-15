@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+    font-family: Inter, sans-serif;
+    color: white;
+}
+
+a {
+	color: #4184e4;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1 {
+    font-size: 3.25rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.about>p {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 800px) {
+    .about {
+        max-width: 75%;
+    }
+}
